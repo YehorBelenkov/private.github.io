@@ -43,7 +43,7 @@ html, body {
     justify-content: center;
     position: relative;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 1%;
 }
 
 .Mevio_Title img {
@@ -237,7 +237,6 @@ html, body {
   }
   .search_sorting{
     display: flex;
-    margin-top: 1%;
     align-items: center;
     gap: 3rem;
   }
