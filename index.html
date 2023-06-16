@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="TopInfo_Container">
+        <div class="Mevio_Title">
+            <img src="images/MevioGreen_rec.png" alt="">
+            <h2>Mevio</h2>
+        </div>
+        <div class="toTheRight_container">
+            <div class="loupe_container">
+                <img src="images/loupe (1) 1.png" alt="">
+                <input class="searcher" type="text" placeholder="Поиск...">
+            </div>
+            <button class="create_btn">Создать</button>
+            <img src="images/paint-brush (2) 1.png" alt="">
+            <img src="images/bell (3) 1.png" alt="">
+            <img src="images/Ellipse 11.png" alt="">
+        </div>
+    </div>
+    <div class="desks_body_container">
+        <div class="side_Menu_Container">
+            <button> <span><img src="images/blackboard (1) 1.png" alt=""><span>Доски</span></span></button>
+            <hr>
+            <button> <span><img src="images/group (1) 1.png" alt=""><span>Участники</span></span></button>
+            <hr>
+            <p>Рабочее пространство</p>
+            <hr>
+            <button> <span><img src="images/calendar (1) 1.png" alt=""><span>Календарь</span></span></button>
+            <hr>
+            <p>Мои доски <span>+</span></p>
+                <hr>
+            <div class="myDesks">
+                <button class="desk"> <span><img src="images/background1.png" alt=""><span>Курсовой проект</span></span></button>
+                <hr>
+                <button class="desk"> <span><img src="images/background2.png" alt=""><span>CRM Project</span></span></button>
+                <hr>
+            </div>
+            <p>Избранное<span><img class="rotate_img" src="images/right-arrow-angle (1) 1.png" alt=""></span></p>
+            <hr>
+            <div class="myDesks">
+                <button class="desk"> <span><img src="images/background1.png" alt=""><span>Курсовой проект</span></span></button>
+                <hr>
+                <button class="desk"> <span><img src="images/background2.png" alt=""><span>CRM Project</span></span></button>
+                <hr>
+            </div>
+        </div>
+        <div class="middle_desks_container">
+            <div class="middle_top_body">
+                <h1>Доски</h1>
+            </div>
+            <div class="middle_middle_body">
+                <select class="combobox">
+                    <option value="" disabled selected hidden>Фильтр</option>
+                </select>
+                <div class="search_sorting">
+                    <div class="search_desk">
+                        <p>Поиск:</p>
+                        <input class="searcher1" type="text" placeholder="Поиск досок...">
+                    </div>
+                    <div class="search_desk">
+                        <p>Сортировка:</p>
+                        <select class="combobox">
+                            <option value="" disabled selected hidden>Активность</option>
+                        </select>
+                    </div>
+                </div>
+                <h1 class="desks_amount">Всего досок :  10</h1>
+                <div class="boards">
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/readLeavesBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/readLeavesBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/cloadyWeatherBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/cloadyWeatherBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/pinkCloadsBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/pinkCloadsBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/purpleCloadsBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/purpleCloadsBackground.png" alt="">
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/OpacityBackground.png" alt="">
+                        <p><img src="images/locked-padlock (2) 2.png" alt=""></p>
+                    </div>
+                    <div class="group_container">
+                        <p>Курсовой проект</p>
+                        <img src="images/OpacityBackground.png" alt="">
+                        <p><img src="images/locked-padlock (2) 2.png" alt=""></p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> -->
+<script>
+    const rotateImg = document.querySelector('.rotate_img');
+
+    rotateImg.addEventListener('click', () => {
+    rotateImg.classList.toggle('rotate180');
+});
+</script>
+</body>
+</html>
