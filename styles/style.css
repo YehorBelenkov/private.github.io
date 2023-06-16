@@ -233,11 +233,11 @@ html, body {
     padding-left: 1rem;
   }
   .combobox:first-child{
-    margin-top: 1.5rem;
+    margin-top: 1.5%;
   }
   .search_sorting{
     display: flex;
-    margin-top: 1rem;
+    margin-top: 1%;
     align-items: center;
     gap: 3rem;
   }
@@ -264,7 +264,7 @@ html, body {
     color: #05342F;
   }
   .desks_amount{
-    margin-top: 2rem;
+    margin-top: 2%;
     font-weight: 500;
     font-size: 25px;
   }
@@ -282,7 +282,7 @@ html, body {
     width: 14rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2%;
   }
   .group_container p{
     position: absolute;
@@ -290,7 +290,7 @@ html, body {
     color: white;
     font-size: 17px;
     margin-left: -3rem;
-    margin-top: 0.3rem;
+    margin-top: 0.3%;
   }
   .group_container img {
     width: 95%;
@@ -299,7 +299,7 @@ html, body {
   .group_container p img{
     width: 100%;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 140%;
     margin-right: -6.5rem;
     margin-left: 6.5rem;
   }
